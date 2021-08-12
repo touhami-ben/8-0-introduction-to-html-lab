@@ -1,0 +1,24 @@
+{
+  "name": "pursuit-core-web-html-introduction-lab",
+  "version": "1.0.0",
+  "description": "[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinpursuit/Pursuit-Core-Web-HTML-Introduction-Lab.git"
+  },
+  "author": "Corey Ladovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinpursuit/Pursuit-Core-Web-HTML-Introduction-Lab/issues"
+  },
+  "homepage": "https://github.com/joinpursuit/Pursuit-Core-Web-HTML-Introduction-Lab#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.1",
+    "cypress": "^6.1.0"
+  }
+}
