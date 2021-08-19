@@ -1,5 +1,5 @@
 describe("Sundial", () => {
-  it("vists sundial.html", () => {
+  it("visits sundial.html", () => {
     cy.visit("./sundial.html");
   });
   it("should have a main header", () => {
@@ -36,9 +36,7 @@ describe("Sundial", () => {
     paragraphs.should("have.length", 6);
 
     cy.get("p").should((p) => {
-      expect(p[0]).to.contain.text(
-        "free"
-      );
+      expect(p[0]).to.contain.text("free");
     });
   });
 });

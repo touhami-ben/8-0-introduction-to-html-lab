@@ -17,10 +17,10 @@ describe("Recipe", () => {
   it("should have the three sub headers", () => {
     cy.get("h2").should("have.length", 3);
 
-    cy.get("h2").should((subs) => {
-      expect(subs[0]).to.contain.text("Description");
-      expect(subs[1]).to.contain.text("Ingredients");
-      expect(subs[2]).to.contain.text("Directions");
+    cy.get("h2").should((headings) => {
+      expect(headings[0]).to.contain.text("Description");
+      expect(headings[1]).to.contain.text("Ingredients");
+      expect(headings[2]).to.contain.text("Directions");
     });
   });
 
@@ -38,11 +38,11 @@ describe("Recipe", () => {
   });
 
   it("should include horizontal lines to break up the sections", () => {
-      cy.get("hr").its("length").should("be.gte", 4);
-  })
+    cy.get("hr").its("length").should("be.gte", 4);
+  });
 
   it("should include a link to a similar recipe", () => {
-          cy.get("a").should("have.length", 1).and("be.visible");
-          cy.get("a").should("have.attr", "href")
-  })
+    cy.get("a").should("have.length", 1).and("be.visible");
+    cy.get("a").should("have.attr", "href");
+  });
 });
