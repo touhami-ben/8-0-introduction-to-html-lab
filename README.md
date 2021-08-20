@@ -1,6 +1,6 @@
 # HTML Introduction Lab
 
-Let's get familiar with some of the more common and basic tags of HTML.
+In this lab, you will have an opportunity to get familiar with some of the more common and basic tags of HTML.
 
 ---
 
@@ -29,12 +29,6 @@ npm test
 ```
 
 This will open the Cypress testing window, where you can click to run an individual suite of tests or all of the tests at once.
-
-## Before you start
-
-Since we're working in the web browser now, we're using a different testing framework called Cypress. Cypress runs your code in a virtual browser and can be programmed to examine various parts of your site.
-
-Read [Testing Websites with Cypress](./cypress_intro.md) to get an understanding of how it works.
 
 ### Question One
 
