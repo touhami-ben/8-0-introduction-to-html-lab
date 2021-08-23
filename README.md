@@ -4,7 +4,7 @@ In this lab, you will have an opportunity to get familiar with some of the more 
 
 ---
 
-## Assessment Setup
+## Lab Setup
 
 ### Getting started
 
